@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // No static export - need dynamic for GSAP
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
 }
 module.exports = nextConfig
